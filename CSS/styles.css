@@ -1,0 +1,92 @@
+body{
+font-family: 'Roboto', sans-serif;
+background-color: #fef4f3;
+}
+
+h1{
+  font-size: 16px;
+}
+
+.profilesection {
+  padding-top: 2.25em;
+  padding-bottom: 2em;
+}
+
+.btn {
+  border: 2px solid;
+  height: 65px;
+}
+
+.btntext {
+    position: relative;
+    top: 7px;
+}
+
+@media all and (min-width: 700px) {
+.btncon {
+  width: 700px!important;
+}
+}
+
+.buybtn {
+  background-color: #E52730;
+  border-color: #E52730;
+  color: #ffffff;
+}
+
+.buybtn:hover {
+    background-color: #fef4f3 !important;
+    border-color: #E52730;
+    color: #E52730;
+}
+
+.sellbtn {
+  background-color: #151515;
+  border-color: #151515;
+  color: #ffffff;
+}
+
+.sellbtn:hover {
+    background-color: #fef4f3 !important;
+    border-color: #151515;
+    color: #151515;
+}
+
+.loginbtn {
+  background-color: #fef4f3;
+  border-color: #151515;
+  color: #151515;
+}
+
+.loginbtn:hover {
+    background-color: #151515 !important;
+    border-color: #151515;
+    color: #ffffff;
+}
+
+
+.bi-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bi-facebook:hover {
+    color: #3b5998 !important;
+}
+
+.bi-twitter:hover {
+    color: #00acee !important;
+}
+
+.bi-youtube:hover {
+    color: #c4302b !important;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fef4f3;
+}
